@@ -40,3 +40,4 @@ __pycache__/
 # === Тестовые данные с личной инфой ===
 testdata/
 my_*.log
+!sample_auth.log
