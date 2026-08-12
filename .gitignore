@@ -1,0 +1,42 @@
+# === СЕКРЕТЫ — никогда в git ===
+*.key
+*.pem
+*.p12
+*.pfx
+id_*
+id_ed25519
+id_rsa
+*.env
+.env
+.env.*
+secrets/
+credentials*
+*.secret
+
+# === Логи с реальными данными ===
+*.log
+logs/
+auth.log
+access.log
+
+# === Bandit/CTF — пароли и решения не публикуем ===
+bandit_passwords.txt
+*solution*
+ctf_flags*
+
+# === Obsidian vault (синкается через MEGA, не через git) ===
+OAC_Vault_Clean/
+*.vault
+
+# === Временный мусор ===
+*.tmp
+*.bak
+*~
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# === Тестовые данные с личной инфой ===
+testdata/
+my_*.log
